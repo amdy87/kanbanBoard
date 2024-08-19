@@ -5,7 +5,7 @@ const TaskCard = ({ title }) => {
   return (
     <div className="task_card">
       <h3>{title}</h3>
-      <button>delete</button>
+      <button style={{ marginLeft: "10px", height: "30px" }}>delete</button>
     </div>
   );
 };

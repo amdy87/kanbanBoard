@@ -3,12 +3,18 @@ import TaskBoard from "./components/Task Board/TaskBoard";
 import "./App.css";
 
 const App = () => {
-  const boards = ["To do", "Doing", "Done", "Review"];
+  const boards = ["To do", "Doing", "Done"];
   const tasks = [
     { task: "task 1", status: "To do" },
     { task: "task 2", status: "Doing" },
     { task: "task 3", status: "Doing" },
-    { task: "task 5", status: "Review" },
+    { task: "task 3", status: "Doing" },
+    { task: "task 3", status: "Doing" },
+    { task: "task 3", status: "Doing" },
+    { task: "task 3", status: "Doing" },
+    { task: "task 3", status: "Doing" },
+    { task: "task 3", status: "Doing" },
+    { task: "task 3", status: "Doing" },
   ];
 
   return (

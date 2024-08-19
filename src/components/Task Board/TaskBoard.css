@@ -2,7 +2,6 @@
     display: flex;
     width: 100%;
     align-items: center;
-    margin-bottom: 15px;
     padding: 20px;
     border-bottom: 3px solid #626161;
     justify-content: space-evenly;
@@ -16,3 +15,13 @@
     border-radius: 10px;
     background-color: #4d4d4d;
   }
+
+.task_board_foot {
+    height: 50px;
+    width: 100%;
+    border-top: 2px solid #626161;
+    padding: 10px;
+    display: flex;
+    justify-content: right;
+    margin-bottom: 100px;
+}
