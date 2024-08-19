@@ -1,0 +1,18 @@
+.task_board_head {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 20px;
+    border-bottom: 3px solid #626161;
+    justify-content: space-evenly;
+}
+
+.task_board {
+    height: 95%;
+    width: 475px;
+    margin: 0px 15px;
+    border: 2px solid #1f1f1f;
+    border-radius: 10px;
+    background-color: #4d4d4d;
+  }

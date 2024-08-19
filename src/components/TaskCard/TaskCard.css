@@ -1,0 +1,10 @@
+.task_card {
+    padding: 20px;
+    border: 2px solid #2d2d2d;
+    border-radius: 10px;
+    margin: 15px;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    word-wrap: break-word;
+}
