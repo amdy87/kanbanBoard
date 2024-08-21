@@ -12,14 +12,15 @@ const TaskBoard = ({ title, tasks }) => {
       >
         <h2 contentEditable="true">{title}</h2>
       </div>
-      <div style={{ overflow: "scroll", height: "82%" }}>
+      <div style={{ overflow: "scroll", height: "81%" }}>
         {tasks.map(
           (task) => task.status === title && <TaskCard title={task.task} />
         )}
       </div>
-      <div className="task_board_foot">
+      <footer className="task_board_foot">
+        <button>+</button>
         <button>Delete</button>
-      </div>
+      </footer>
     </section>
   );
 };

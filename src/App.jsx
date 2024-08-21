@@ -19,10 +19,19 @@ const App = () => {
 
   return (
     <div className="app">
+      <header className="app_head">
+        <h1>Kanban Board</h1>
+      </header>
       <main className="app_main">
-        {boards.map((board, index) => (
-          <TaskBoard title={board} key={index} tasks={tasks} />
-        ))}
+        <button className="delete_button" style={{ backgroundColor: "white" }}>
+          Add Task Board
+        </button>
+        <div className="container">
+          {boards.map((board, index) => (
+            <TaskBoard title={board} key={index} tasks={tasks} />
+          ))}
+        </div>
+        <button className="delete_button">Clear Tasks</button>
       </main>
     </div>
   );

@@ -1,13 +1,49 @@
 .app {
   display: grid;
-  grid-template-rows: 150px auto;
+  grid-template-rows: 80px auto;
+  height: 100vh;
+  width: fit-content;
 }
 
 .app_main {
-  display: flex;
-  padding: 100px 0px;
-  height: 100vh;
-  min-height: 800px;
+  display: grid;
+  padding-top: 20px;
+  padding-bottom: 100px;
+  width: fit-content;
+  min-width: 100vw;
+  max-height: 100%;
+  grid-template-rows: 80px auto;
   background-color: #333333;
-  justify-content: space-evenly;
+  
+}
+
+.app_head {
+  background-color: #4d4d4d;
+  height: 80px;
+  padding: 20px;
+  text-align: left;
+}
+
+.delete_button {
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  padding: 10px;
+  margin-top: 20px;
+  justify-self: right;
+  margin-right: 20px;
+  background-color: rgb(163, 19, 19);
+  border-width: 0px;
+  border-radius: 10px;
+  height: 35px;
+}
+
+.container {
+  display: flex;
+  align-items: stretch;
+  overflow-x: scroll;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0px 30px;
+  padding-bottom: 10px;
 }
