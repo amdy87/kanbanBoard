@@ -8,12 +8,13 @@
 .app_main {
   display: grid;
   padding-top: 20px;
-  padding-bottom: 100px;
+  padding-bottom: 10px;
   width: fit-content;
   min-width: 100vw;
   max-height: 100%;
-  grid-template-rows: 80px auto;
+  grid-template-rows: 80px min-content;
   background-color: #333333;
+  margin-bottom: 0;
   
 }
 
